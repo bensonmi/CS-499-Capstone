@@ -1,1 +1,2 @@
-# CS-499-Capstone
+# CS465-fullstack
+CS-465 Full Stack Development with MEAN

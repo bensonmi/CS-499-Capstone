@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="/assets/images/logo.png"></a>
+    <div class="collapse navbar-collapse">
+              <div>Trips</div>
+    </div> 
+
+    <div>
+        <button  (click)="onLogin()" class="btn btn-info" *ngIf="!isLoggedIn()">login</button>
+    </div>
+    <div>
+        <button  (click)="onLogout()"class="btn btn-info" *ngIf="isLoggedIn()">logout</button>
+    </div>
+
+</nav>
+
